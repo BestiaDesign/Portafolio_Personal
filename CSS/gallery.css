@@ -28,21 +28,21 @@ header {
     font-family: Chivo_Mono;
     color: aliceblue;
 }
-/*.habilidades {
+.habilidades {
     text-align:center;
-    padding: 0px 0px 0px 950px;
-    margin-top: 10px;
+   /* padding: 0px 0px 0px 950px;*/
+    margin-top: 5px;
     font-family: Chivo_Mono;
     color: aliceblue;
-    font-size: 16px; 
-}*/
+    font-size: 20px;
+}
 .items {
     color: aliceblue;
     font-family: Chivo_Mono;
     text-align:right;
 }
 
-/*#photos {
+/* #photos {
 
     width: 850px;
     height: 850px;
