@@ -1,54 +1,42 @@
-body {
-    background-color: #1D1F43;
-}
-header {
-    background-color: #1D1F43;
-    padding: 10px 0;
-    color: aliceblue;
+@font-face {
+    font-family: Chivo_Mono;
+    src: url(../Fonts/Chivo_Mono/ChivoMono-VariableFont_wght.ttf);
 }
 
-.links {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-    padding-left: 500px;
+body{
+    background-color: #1D1F43;
+}
+
+header {
+    background-color: #1D1F43;
+    padding: 50px 0;
+    color: aliceblue;
 }
 
 .titulo-principal{
     padding-left: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Chivo_Mono;
     color: aliceblue;
 }
 
-nav {
-    width: 940px;
-    position: absolute;
-    top: 80px;
-    right:0;
-    margin: 0 auto;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-    text-align:right;
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-}
 .titulo-centralizado {
-    text-align:right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    padding: 0px 0px 0px 1300px;
+    margin-top: 100px;
+    font-family: Chivo_Mono;
     color: aliceblue;
 }
-.profesion {
-  /*  background: #FFFFFF; */
-    padding: 30px;
+.habilidades {
+    text-align:center;
+    padding: 0px 0px 0px 1320px;
+    margin-top: 10px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+    font-size: 16px;
 }
 .items {
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Chivo_Mono;
     text-align:right;
 }
 
