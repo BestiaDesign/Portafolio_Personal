@@ -1,6 +1,6 @@
 let btnEnviar = document.getElementById("btnEnviar");
 let idTimeout;
-let correos = ["bestiadesign1@gmail.com","marzo.2093@gmail.com"];
+let correo = ["bestiadesign1@gmail.com"];
 
 let emailConfirmar = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 let telefonoConfirmar = /[0-9]{2}-[0-9]{4}-[0-9]{4}/;
@@ -81,7 +81,7 @@ if ((idTimeout!=undefined) && (idTimeout!=null))
   if (validos == 4){
     Email.send({
       SecureToken : "0d441985-cdef-4941-9931-d30a7ed8bde4",
-      To : correos,
+      To : correo,
       From : `bestiadesign1@gmail.com`,
       Subject : `${nameFrom.value} send you a message.`,
       Body : `${emailBody.value}
