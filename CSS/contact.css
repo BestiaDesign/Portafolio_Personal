@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Chivo_Mono;
+    src: url(../Fonts/Chivo_Mono/ChivoMono-VariableFont_wght.ttf);
+}
+
+#getInTouch {
+    font-size: 20px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+}
+
+#formContact {
+    font-size: 20px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+}
+
+#btnContactoEnviar {
+    font-family: Chivo_Mono;
+}

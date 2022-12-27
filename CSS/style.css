@@ -15,13 +15,17 @@ header {
     color: aliceblue;
 }
 
-.titulo-principal{
+#johanna {
+    top: 0px; left: -116.625%; max-height: 100%;
+}
+
+/*.titulo-principal{
     padding-left: 30px;
     font-family: Chivo_Mono;
     color: aliceblue;
-}
+} */
 
-.titulo-centralizado {
+/*.titulo-centralizado {
     text-align:center;
     padding: 0px 0px 0px 1300px;
     margin-top: 100px;
