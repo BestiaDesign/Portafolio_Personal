@@ -40,3 +40,10 @@ header {
     text-align:right;
 }
 
+#photos {
+
+    width: 800px;
+    height: 800px;
+    margin-left: 1000px;
+    margin-top: 30px;
+}
