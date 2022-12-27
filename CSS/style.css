@@ -4,11 +4,13 @@
 }
 
 body{
-    background-color: #1D1F43;
+   
+    background-image:url(../Imagenes/Mockup4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
-    background-color: #1D1F43;
     padding: 50px 0;
     color: aliceblue;
 }
@@ -28,7 +30,7 @@ header {
 }
 .habilidades {
     text-align:center;
-    padding: 0px 0px 0px 1320px;
+    padding: 0px 0px 0px 950px;
     margin-top: 10px;
     font-family: Chivo_Mono;
     color: aliceblue;
@@ -42,8 +44,9 @@ header {
 
 #photos {
 
-    width: 800px;
-    height: 800px;
+    width: 850px;
+    height: 850px;
     margin-left: 1000px;
     margin-top: 30px;
+    padding: 0px;
 }
