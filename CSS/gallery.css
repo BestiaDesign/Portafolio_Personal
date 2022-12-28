@@ -34,7 +34,8 @@ header {
     margin-top: 5px;
     font-family: Chivo_Mono;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 .items {
     color: aliceblue;
@@ -58,3 +59,4 @@ header {
     margin-right: 1000px;
     margin-left: 30px;
 }*/
+
