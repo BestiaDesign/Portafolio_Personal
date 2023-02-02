@@ -15,7 +15,7 @@
   <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand">BestiaDesign</a><a class="navbar-brand" style="text-align: right;">UX / Graphic designer & Fullstack Developer</a>
+          <a class="navbar-brand" href="../index.html">BestiaDesign</a><a class="navbar-brand" style="text-align: right;">UX / Graphic designer & Fullstack Developer</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -95,37 +95,49 @@
           <!-- Información -->
         <div class="text-center col-lg-5 col-sm-12 pt-2" id="getInTouch">
           <br>
-          <h5 id="tituloInfo" style="font-size: 70px; font-family: Chivo_Mono; color: aliceblue;"><strong>Get in touch</strong></h5>
+          <h5 id="tituloInfo" style="font-size: 65px; font-family: Chivo_Mono; color: aliceblue;"><strong>Get in touch!</strong></h5>
           <p>Send me a message and I will contact you as soon as possible.</p>
           <p>Mon to Fri: 11:00 am - 6:00 pm (GMT+6)
             <br>Email: bestiadesign1@gmail.com
           </p>
+          <!-- Mapa -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59756.486053185814!2d-103.37322779589869!3d20.597024621177766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b387a6414a03%3A0x5e0b8b1c70beaa10!2sTlaquepaque%2C%20Jalisco!5e0!3m2!1sen!2smx!4v1675267255908!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br> <br>
+
         </div>
         
         <!-- Contacto -->
-        <div id="formContact" class="col-lg-5 col-sm-12">
+        <!-- <div id="formContact" class="col-lg-5 col-sm-12">
           <div class="alert alert-danger" id="alertError" style="display: none;" role="alert">
-          </div>
+          </div> -->
+          <div id="formContact" class="col-lg-5 col-sm-12 mt-3">
+            <div class="alert alert-success mt-2" id="alertaSuccess" style="display: none;" role="alert">
+              Your message has been sent successfully.
+            </div>
           <br>
           <div class="box">
             <label for="exampleFormControlInput1" class="form-label">Name:</label>
             <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            <div class="alertaRegistro" id="alertaName" style="display: none;" style="font-size: 5px;">Insert a valid name.</div>
           </div>
           <br>
           <div class="box">
             <label for="exampleFormControlInput1" class="form-label">e-mail:</label>
             <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@gmail.com">
+            <div class="alertaRegistro" id="alertaEmail" style="display: none;">Insert a valid email.</div>
           </div>
           <br>
           <div class="box">
             <label for="exampleFormControlInput1" class="form-label">Phone:</label>
             <input type="tel" maxlength="12" class="form-control" id="exampleFormControlInput3" placeholder="Insert 10 digit number">
+            <div class="alertaRegistro" id="alertaTel" style="display: none;">Insert a valid number.</div>
           </div>
           <br>
           <div class="box">
             <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
             <textarea class="form-control" id="exampleFormControlTextMessage" rows="3"
               placeholder="Message here"></textarea>
+              <div class="alertaRegistro" id="alertaMessage" style="display: none;">Insert a valid message.</div>
             <div class="pt-2 text-center">
               <button class="btn btn-light" type="submit" style="background-color: #ffffff" id="btnEnviar">Send</button>
             </div>
@@ -133,9 +145,6 @@
         </div>
         </div>
 
-    <!-- Mapa -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1320.080886469532!2d-103.28049218548652!3d20.6389392025518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b391b2588115%3A0x8d4bdfa8d5fb4294!2sParque%20las%20Piedrotas!5e0!3m2!1ses!2smx!4v1672171251559!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <br> <br>
       </main>
     <!-- Footer -->
    <footer class="text-center text-white" style="background-color:rgb(16, 15, 15);">
@@ -148,7 +157,7 @@
         style="padding: 0;" title="Join me on Github"></i>  <img src="../Imagenes/flickr-icon-logo-black-and-white.png" alt="" width="30px" title="Join me on Flickr" target="_blank" class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.flickr.com/photos/bestiadesign/" role="button" data-mdb-ripple-color="dark" style="padding: 0;"></i></a>
     </div>
     <div class="text-center pb-2" style="background-color: #212529; font-size: 10px; color: rgba(255, 255, 255, 0.456);;">
-      Copyright BestiaDesign - 2022. All rights reserved.
+      Copyright BestiaDesign - 2023. All rights reserved.
     </div>
   </footer> 
 
