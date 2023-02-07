@@ -1,0 +1,331 @@
+@font-face {
+    font-family: Chivo_Mono;
+    src: url(../Fonts/Chivo_Mono/ChivoMono-VariableFont_wght.ttf);
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(1, 37, 69);
+  }
+
+  .navbar #navbarLinks {
+    display: none;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    font-family: Chivo_Mono;
+    font-weight: 500;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  #menu {
+    right: 3%;
+    top: 8%;
+    display: block;
+    position: absolute;
+    padding: 0.6%;
+  }
+
+  #divider {
+    width: 10rem;
+    color: #ddd;
+  }
+
+  #divider-end {
+    width: 100%;
+    text-align: center;
+    border-color: #ddd;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* Index */
+  /*#aboutMe {
+    background-image: ;
+  }*/
+
+  .container {
+    padding: 64px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+
+  #saludo {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    font-size: 15px;
+}
+
+  #name {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(19, 96, 163);
+    font-weight: bold; 
+    font-size:40px; 
+}
+
+#description {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    font-size: 20px;
+}
+  
+  #btnResume {
+    font-family: Chivo_Mono;
+    border-radius: 5%;
+    margin-top: 1rem;
+    border: 1;
+    padding: 0.5rem 1rem;
+    background-color: rgb(19, 96, 163);
+    color: aliceblue;
+}
+
+  #btnResume:hover {
+  background-color: white;
+  border: 2px solid;
+  padding: 0.4rem 0.9rem;
+  color: rgb(1, 37, 69);
+  }
+
+  
+  #johanna {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+
+
+
+/* Skills */
+#skills {
+    background-color: rgb(1, 37, 69);
+}
+
+#tarjeta {
+  background-color: rgb(1, 37, 69);
+  border: none;
+}
+
+#tarjeta1 {
+  background-color: rgb(1, 37, 69);
+  border: none;
+
+}
+
+#habilidades {
+    font-size: 40px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+    /*color: rgb(1, 37, 69);*/
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #habilidades1 {
+    font-size: 20px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+    /*color: rgb(1, 37, 69);*/
+    text-align: center;
+  }
+
+  #bio{ 
+    font-size: 15px;
+    font-family: Chivo_Mono;
+    color: aliceblue;
+    text-align: center;
+  }
+
+/* Gallery */ 
+#behance1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #behance1:hover {opacity: 0.7;
+}
+  
+  .modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  #fotosGaleria {
+    font-size: 40px;
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+/* Contact */
+#tituloInfo {
+    font-size: 65px;
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+}
+
+#getInTouch {
+    font-size: 20px;
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+}
+
+#formContact {
+    font-size: 20px;
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+}
+
+#btnEnviar {
+    font-family: Chivo_Mono;
+    border-radius: 5%;
+    margin-top: 1rem;
+    border: 0;
+    padding: 0.5rem 1rem;
+    color: aliceblue;
+    background-color: rgb(19, 96, 163);
+}
+
+#btnEnviar:hover {
+    border: 2px solid rgb(1, 37, 69);
+    padding: 0.4rem 0.9rem;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(1, 37, 69);
+}
+
+#alertaName {
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+#alertaEmail {
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+#alertaTel {
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+#alertaMessage {
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+#alertaSuccess {
+    font-size: 15px;
+}
+
+@media (min-width: 320px) {
+    .row {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .row {
+      font-size: 1.1em;
+    }
+  }
+  
+
+/* Footer */
+  footer{
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+@media(min-width:1024px){
+    footer{
+        font-size: 1.2em;
+            font-family: Chivo_Mono;
+    }
+}

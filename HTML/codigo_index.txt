@@ -1,0 +1,66 @@
+<div class="card" style="width: 18rem;" id="aboutMe">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted" id="saludo">Hello!, I'm</h6>
+    <h5 class="card-title" id="name">Johanna Villegas</h5>
+    <p class="card-text" id="description"><strong>Graphic/UX designer</strong><br>I'm currently specializing in UX Design and Front End Development.</p>
+    <a href="https://drive.google.com/file/d/15BiD-Wskvo9B9BbYp00EafH_tlntFPHU/view" class="btn btn-light" target="_blank" id="btnResume">My Resume</a>
+  </div>
+</div>
+<br>
+
+
+/* Index */
+#aboutMe {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    border: none;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#saludo {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    font-size: 20px; 
+}
+
+#name {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    font-weight: bold; 
+    font-size: 30px; 
+}
+
+#description {
+    font-family: Chivo_Mono;
+    /*color: aliceblue;*/
+    color: rgb(1, 37, 69);
+    font-size: 20px;
+}
+
+#btnResume {
+        font-family: Chivo_Mono;
+        border-radius: 5%;
+        margin-top: 1rem;
+        border: 0;
+        padding: 0.5rem 1rem;
+        background-color: rgb(132, 197, 255);
+}
+
+#btnResume:hover {
+    background-color: white;
+    border: 2px solid;
+    padding: 0.4rem 0.9rem;
+}
+
+.container {
+    border: none;
+    width: 38rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
