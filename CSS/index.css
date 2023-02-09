@@ -136,8 +136,6 @@
     }
   }
 
-
-
 /* Skills */
 #skills {
     background-color: rgb(1, 37, 69);
@@ -172,7 +170,7 @@
   }
 
   #bio{ 
-    font-size: 15px;
+    font-size: 17px;
     font-family: Chivo_Mono;
     color: aliceblue;
     text-align: center;
@@ -316,6 +314,18 @@
     }
   }
   
+/* Botón para subir */
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
 
 /* Footer */
   footer{
